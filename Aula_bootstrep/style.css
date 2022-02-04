@@ -1,13 +1,33 @@
 @charset "UTF-8";
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px;
+}
 .navbar {
     background-color: #53cf53;
 }
 
 .quem-somos {
     background-color: rgba(240, 131, 6, 0.877);
+    color: white;
 }
 
 .margin {
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.parceiros {
+    background-color: rgb(58, 58, 238);
+}
+
+.bg-footer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+.col-lg-4 > p {
+    text-size-adjust: 100%;
 }
