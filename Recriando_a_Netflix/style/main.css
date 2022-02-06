@@ -10,10 +10,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* elemento base*/
 body {
    background-color: var(--preta); 
    font-family: 'Times New Roman', Times, serif;
+   color: white;
 }
 
 header .container {
@@ -28,7 +29,6 @@ header .logo {
     color: var(--vermelho);
     font-family: 'Arial Black';
     font-size: 40px;
-
 }
 
 header nav a {
@@ -40,3 +40,26 @@ header nav a {
 header nav a:hover {
     color: #fff;
 } 
+
+/*Serie Principal*/
+
+.serie-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/Recriando_a_Netflix/img/Dr\ House.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.serie-principal .descricao {
+    margin-bottom: 90px;
+}
+
+.titulo {
+    font-size: 40px;
+}
